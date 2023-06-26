@@ -1,0 +1,45 @@
+name: genopheno2
+channels:
+  - conda-forge
+  - pytorch
+  - nvidia
+  - bioconda
+  - defaults
+dependencies:
+  - click=7.1.2
+  - cudatoolkit=11.8.0
+  - cython=0.29.32
+  - dask=2021.3.0
+  - fastparquet=0.5.0
+  - h5py=3.8.0
+  - ipdb=0.13.4
+  - joblib=1.0.1
+  - numcodecs=0.11.0
+  - numexpr=2.7.3
+  - numpy=1.21.2
+  - optuna=2.10.0
+  - optuna-dashboard=0.4.1
+  - pandas=1.5.1
+  - plotnine=0.10.1
+  - pyarrow=4.0.1
+  - python=3.8.10
+  - pytorch=2.0
+  - pytorch-lightning=2.0
+  - pyyaml=5.4.1
+  - snakemake=7.17.1
+  - sqlite=3.40.0
+  - statsmodels=0.13.5
+  - tensorboard=2.6.0
+  - torchmetrics=0.7.0
+  - tqdm=4.59.0
+  - yaml=0.2.5
+  - zarr=2.13.3
+  - yappi=1.4.0
+  - pip:
+    - fastlmm==0.6.1
+    - fastlmmclib==0.0.1
+    - groupyr==0.2.5
+    - scikit-learn==0.23.2
+    - scikit-optimize==0.9.0
+    - scipy==1.5.4
+    - sklearn==0.0

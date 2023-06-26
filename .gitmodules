@@ -1,0 +1,6 @@
+[submodule "seak"]
+	path = seak
+	url = git@github.com:HealthML/seak.git
+[submodule "genopheno"]
+	path = genopheno
+	url = git@github.com:bfclarke/genopheno.git
